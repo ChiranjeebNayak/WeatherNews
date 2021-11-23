@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;   
+}
+.row .profile{
+    flex: auto;
+    width: 45vw;
+}
+.row .profile .image{
+    text-align: center;
+    padding-top: 3vh;
+}
+.row .profile .image img{
+    height: 35vh;
+    border-radius: 60%;
+    border: 5px solid #61dbfb;
+    
+}
+.row .profile .image h2{
+    font-size: 1.5rem;
+}
+.row .profile .about{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.row .profile .follow{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.row .profile .follow .icons{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.row .profile .follow .icons a{
+    color: black;
+}
+.row .profile .follow .icons .facebook{
+    cursor: pointer;
+}
+.row .profile .follow .icons .facebook:hover{
+    color: rgb(25, 25, 161);
+}
+.row .profile .follow .icons .instagram{
+    cursor: pointer;
+}
+.row .profile .follow .icons .instagram:hover{
+    color: rgb(190, 18, 18);
+}
+.row .profile .follow .icons .github{
+    cursor: pointer;
+}
+.row .profile .follow .icons .github:hover{
+    color:rgb(29, 27, 27);
+}
+.row .profile .follow .icons .youtube{
+    cursor: pointer;
+}
+.row .profile .follow .icons .youtube:hover{
+    color: rgb(241, 10, 10);
+}
+.row .profile .follow .icons .linkedin{
+    cursor: pointer;
+}
+.row .profile .follow .icons .linkedin:hover{
+    color: rgb(14, 27, 209);
+}
+.row .feedback{
+    flex: auto;
+    width: 45vw;
+    margin-top: 3vh;
+    text-align: center;
+}
+.row .feedback .title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline 5px black;
+
+}
+.row .feedback input{
+    width: 80%;
+    height: 5vh;
+    margin: 15px;
+    padding-left: 10px;
+}
+.row .feedback input::placeholder{
+    padding-left: 10px;
+    line-height: 2vh;
+}
+.row .feedback textarea{
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.row .feedback button{
+    margin: 18px;
+    padding: 10px;
+    background: rgb(21, 255, 0);
+    cursor: pointer;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    border: none;
+   
+}
+.row .feedback button:hover{
+    background-color: #0ab35e;
+    color: rgb(255, 255, 255);
+}
+@media (max-width:800px) {
+    
+    .row .profile{
+        margin-top: 15vh;
+    }
+    .row .feedback{
+        margin: 0px;
+        margin-top: 22vh;
+
+        
+    }
+    
+}
+@media (max-width:430px) {
+    
+    .row .profile{
+        width: 100%;
+    }
+    .row .feedback{
+        width: 100%;
+        
+        
+    }
+    
+}

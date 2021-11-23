@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    overflow-y: auto;
+    justify-content: center;
+    flex-direction:row;
+    color: black;
+}
+@media (max-width:960px){
+    .row{
+        flex-direction: column;
+    }
+}

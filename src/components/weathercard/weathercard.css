@@ -1,0 +1,39 @@
+
+.cityname{
+    padding-top: 5vh;
+    text-align: center;
+font-size: 2rem;
+}
+ .weather{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   padding: 2vh;
+   margin: 2vh;
+    font-size: 1.2rem;
+}
+ .temp{
+     display: flex;
+     justify-content: center;
+    padding: 2vh;
+    margin: 2vh;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.temp_max_min{
+    display: flex;
+    margin: 2vh;
+    flex-wrap: wrap;
+}
+.temp_max_min .max_temp{
+    flex-grow: 1;
+    padding: 1vh;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.temp_max_min .min_temp{
+    flex-grow: 1;
+    padding: 1vh;
+    text-align: center;
+    font-size: 1.2rem;
+}

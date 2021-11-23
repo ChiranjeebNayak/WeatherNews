@@ -1,0 +1,78 @@
+.cointainer{
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    justify-content: center;
+    color: cyan;
+}
+.cointainer .weather_card{
+    background: rgb(0, 0, 0);
+    height: 60vh;
+    width: 50%;
+    margin-top: 5vh;
+    padding: 20px;
+}
+
+.cointainer .weather_card form{
+    padding-top: 5vh;
+}
+.cointainer .weather_card input{
+    
+    width: 60%;
+    height: 5vh;
+    padding-left: 8px;
+}
+.cointainer .weather_card input::placeholder{
+    padding-left: 5px;
+}
+.cointainer .weather_card  button{
+    margin-left: 2vw;
+    width: 30%;
+    height: 5vh;
+    background: rgb(0, 255, 0);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.cointainer .weather_card  button:hover{
+    color: rgb(0, 0, 0);
+    background: white;
+}
+@media(max-width:1030px){
+    .cointainer .weather_card{
+        width: 50%;
+    }
+}
+@media(max-width:800px){
+    .cointainer{
+        color: black;
+    }
+    .cointainer .weather_card{
+        background: white;
+        width: 100%;
+        margin-top: 10%;
+        height: 68%;
+        padding: 10%;
+        box-shadow: none;
+    }
+    .cointainer .weather_card  button:hover{
+        background: yellowgreen;
+    }
+
+}
+@media(max-width:430px){
+    .cointainer{
+        color: black;
+    }
+    .cointainer .weather_card{
+        background: white;
+        width: 100%;
+        margin-top: 15%;
+        height: 90%;
+        padding: 10%;
+    }
+    .cointainer .weather_card  button:hover{
+        background: yellowgreen;
+    }
+
+}

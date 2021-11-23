@@ -1,0 +1,17 @@
+footer{
+    background: black;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    width: 100%;
+}
+footer p{
+    padding-top: 2vh;
+}
+footer p a{
+    color: #61dbfb;
+    text-decoration: none;
+}
